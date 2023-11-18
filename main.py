@@ -72,10 +72,10 @@ def main():
         print("1. Вивести всі записи з таблиці transactions")
         execute(conn, "SELECT * FROM transactions")
 
-        print("2. Зміна суми транзакції з id = 1 на 150")
-        execute(conn, "UPDATE transactions SET amount = 150 WHERE id = 1")
+        print("2. Зміна суми транзакції з id = 1 на 2500")
+        execute(conn, "UPDATE transactions SET amount = 2500 WHERE id = 1")
 
-        print("3. Видалення транзакції з id = 2")
+        print("3. Видалення транзакції з id = 6")
         execute(conn, "DELETE FROM transactions WHERE id = 6")
 
         print("4. Додати нову транзакцію")
